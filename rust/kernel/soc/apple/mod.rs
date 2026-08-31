@@ -10,3 +10,6 @@ pub mod aop;
 
 #[cfg(CONFIG_RUST_APPLE_MAILBOX = "y")]
 pub mod mailbox;
+
+#[cfg(CONFIG_APPLE_PMP_V1 = "y")]
+pub mod pmp_v1_bridge;
